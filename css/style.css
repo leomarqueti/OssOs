@@ -42,7 +42,7 @@ body {
 }
 
 .ossos {
-    width: 74%;
+    width: 100%;
 }
 
 input {
@@ -123,3 +123,97 @@ input {
     background-color: rgb(43, 212, 48);
 }
 
+@media screen and (max-width: 417px), 
+       screen and (max-height: 790px) {
+  .itens {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 608px;
+    left: 3px;
+}
+
+.ossos {
+    width: 100%;
+}
+
+input {
+    border: none;
+    background-color: rgb(204, 204, 198);
+    width: 283px;
+    height: 32px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.verificar {
+    border: none;
+    background-color: rgb(43, 212, 48);
+    margin-top: 10px;
+    width: 298px;
+    height: 43px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 4px rgb(0 0 0 / 15%);
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    color: #141f23;
+}
+.verificar:hover {
+    background-color: rgb(49, 248, 182);
+    box-shadow: none;
+}
+
+.proximo {
+    border: none;
+    background-color: rgb(212, 68, 43);
+    margin-top: 10px;
+    width: 298px;
+    height: 43px;
+    border-radius: 10px;
+    box-shadow: 5px 2px 4px rgb(0 0 0 / 15%);
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+    color: #141f23;
+}
+
+.errou {
+    display: none;
+    margin: auto;
+    width: 85vw;
+    height: 199px;
+    background-color: #26373d;
+    position: absolute;
+    top: -89px;
+    left: 18px;
+    border-radius: 10px;
+}
+
+.errou > h2,p {
+    color: rgb(212, 68, 43);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.acertou {
+    margin: auto;
+    width: 83vw;
+    height: 131px;
+    background-color: #26373d;
+    position: absolute;
+    top: -32px;
+    left: 23px;
+    border-radius: 10px;
+}
+
+.acertou > h2 {
+    color: rgb(43, 212, 48);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#continuar{
+    background-color: rgb(43, 212, 48);
+}
+}
