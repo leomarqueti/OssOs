@@ -1,2 +1,2 @@
-# OssOs
-Desenvolvendo um app
+# OssOs - SO MOBILE
+Desenvolvendo um app 
