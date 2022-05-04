@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>OssOs</title>
+</head>
+<body>
+    <main>
+        <section class="principal">
+            <img class="ossos" src="imagem/Radio-3082.png" alt="" srcset="">
+            <div class="itens">
+                <div class="perguntas">
+                    <input class="resposta-usuario" type="text">
+                    <button class="verificar" onclick="teste()" >VERIFICAR</button>
+                </div>
+                <div class="errou">
+                    <h2>Incorreto</h2>
+                    <p>Resposta:</p>
+                    <p class="resposta-com-erro"></p>
+                    <button class="proximo" onclick="proximo()" >PROXIMO</button>
+                </div>
+                <div class="acertou">
+                    <h2>Maravilha!</h2>
+                    <button class="proximo" id="continuar" onclick="proximo()" >CONTINUAR</button>
+                </div>
+            </div>
+            <div class="moedas">
+                <img src="imagem/icon/coin.png" alt="">
+                <p class="pontos"></p>
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
